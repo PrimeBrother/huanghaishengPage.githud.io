@@ -1,0 +1,240 @@
+@charset "gbk";
+/*头部样式*/
+.header {
+    height: 695px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+/*最大的导航盒子*/
+/*.main-nav {*/
+    /*width: 1366px;*/
+    /*height: 343px;*/
+/*}*/
+
+/*两个导航盒子*/
+.main-layout {
+    background: #000000;
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.main-layout-sub {
+    width: 100%;
+    height: 263px;
+    background: #000000;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+/*顶部小导航栏宽度限定*/
+.main-nav-inner {
+    height: 80px;
+    background-color: #000;
+    /*logo定位*/
+    position: relative;
+}
+#J-nav{
+    margin-right: 35px;
+}
+#J-nav li {
+    color: white;
+    font-size: 18px;
+    float: left;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 23px;
+}
+
+.main-nav-inner span {
+    display: block;
+    font-size: 10px;
+    color: #575757;
+    font-family: 'Tahoma';
+    text-transform: uppercase;
+}
+
+/*下拉导航栏*/
+ .main-layout-sub{
+    /*position: relative;*/
+    /*display: none;*/
+}
+.sub-nav {
+    height: 263px;
+}
+ ul li.sub-nav-item {
+     margin-top: 20px;
+    float: left;
+}
+
+ ul a.sub-nav-lnk {
+     display: block;
+     width: 144px;
+     height: 28px;
+     line-height: 28px;
+     color: #e1e1e1;
+     font-size: 14px;
+     text-align: center;
+
+}
+ul a.sub-nav-lnk:hover{
+    color:#16c2a2;
+}
+/*logo*/
+a.logo{
+    display: inline-block;
+    width: 230px;
+    height: 130px;
+    position: absolute;
+    /*background: red;*/
+    z-index: 4;
+    left: 25px;
+    text-indent: -2000em;
+    background-position: 0px -163px;
+}
+/*大背景视频*/
+.backRadio {
+    height: 615px;
+}
+video.bigView{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 80px;
+    margin-left: -960px;
+    width: 1920px;
+    height: 614px;
+}
+.backRadio h2 {
+    position: absolute;
+    height: 50px;
+    margin-top: 115px;
+    left: 18px;
+    color: #00ab88;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    z-index: 1;
+}
+.backRadio h4 {
+    position: absolute;
+    left: 15px;
+    top: 260px;
+    font-size: 14px;
+    z-index: 1;
+    color: #e3e3e3;
+}
+video.smallView{
+    position: absolute;
+    top: 340px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+.download {
+    height: 115px;
+    background: yellow;
+    position: absolute;
+    bottom: -9px;
+    z-index: 1;
+    background: url("../images/public-spr.png") no-repeat 0 -472px;
+}
+.download li {
+    float:left;
+}
+.download li.xiazai{
+    width: 220px;
+    height: 100%;
+}
+.download li.dealli{
+    padding-top: 20px;
+    padding-left: 17px;
+    width: 443px;
+    height: 100%;
+}
+.download li.icon-xinshou{
+    width: 112px;
+    height: 105px;
+    padding-top: 10px;
+}
+.download li.icon-xinshou:hover{
+    background: url("../images/public-spr.png") no-repeat -668px -357px;
+}
+.download .icon-newplayer{
+    width: 40px;
+    height: 40px;
+    background: url("../images/public-spr.png") no-repeat 0px 0px;
+    margin-left: 36px;
+}
+.download span.libao{
+    display: block;
+    width: 112px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.download span.haoli{
+    display: block;
+    width: 112px;
+    text-align: center;
+}
+.download div.icon-sec{
+    background: url("../images/public-spr.png") no-repeat -40px 0px;
+}
+.download div.icon-thi{
+    background: url("../images/public-spr.png") no-repeat -80px 0px;
+}
+.download div.icon-fou{
+    background: url("../images/public-spr.png") no-repeat -120px 0px;
+}
+.download div.icon-fiv{
+    background: url("../images/public-spr.png") no-repeat -200px 0px;
+}
+.download .dealli .ttt{
+    width: 100%;
+    height: 80px;
+    color: #C1CFE8;
+}
+.download .ttt img{
+    margin-right: 25px;
+}
+.download .dealli span.denglu{
+    display: block;
+    font-size: 16px;
+    color:white;
+    margin-bottom: 17px;
+}
+.download .dealli span.denglu a{
+    font-size: 16px;
+    font-weight: 900;
+    color:#16c2a2
+}
+.download .dealli span.check{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

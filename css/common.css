@@ -1,0 +1,178 @@
+@charset "gbk";
+
+/*
+Site Name: LOL Website
+Site URL: http://lol.qq.com
+Author: smallni
+Author URL: http://www.smallni.com
+Description:  LOL Website Public Style
+Version: 1.0
+*/
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+em {
+    font-style: normal
+}
+
+ol, ul {
+    list-style: none
+}
+
+fieldset, img, abbr, acronym {
+    border: 0
+}
+
+input, select {
+    font-family: Microsoft YaHei
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%
+}
+
+q:before, q:after {
+    content: ''
+}
+
+body {
+    font: normal 12px/1.6em Microsoft YaHei, Tahoma, simsun;
+    color: #666;
+    min-width: 1240px;
+    margin: 0 auto;
+    background: #f7f8f8
+}
+
+/* base */
+.clearfix, .hd {
+    *zoom: 1
+}
+
+.clearfix:after, .hd:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.hid {
+    display: none
+}
+
+.tnd {
+    overflow: hidden;
+    text-indent: -9999em
+}
+
+.ovh {
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+    display: inline
+}
+
+.fr {
+    float: right;
+    display: inline
+}
+
+input.checkbox {
+    vertical-align: middle
+}
+
+.w100 {
+    width: 100%
+}
+
+.cred {
+    color: #E3583C
+}
+
+.cgray {
+    color: #999
+}
+
+.cgreen {
+    color: #00A483
+}
+
+.lnk-red {
+    color: #E3583C;
+    border-bottom: 1px dotted #E3583C
+}
+
+.lnk-normal {
+    color: #666;
+    border-bottom: 1px dotted #666
+}
+
+.lnk-red:hover, .lnk-normal:hover {
+    text-decoration: none;
+    border-bottom-style: solid
+}
+
+.checkbox, .radio {
+    margin-right: 3px
+}
+
+.colbox {
+    border: 1px solid #E1E1E1;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+    background: #fff
+}
+
+.borline {
+    border-bottom: 1px dotted #BFBFBF
+}
+
+.borlineX {
+    border-bottom: 1px solid #eee
+}
+
+/* layout */
+.layout {
+    width: 1240px;
+    margin: 0 auto
+}
+
+.bd {
+    overflow: hidden;
+    zoom: 1
+}
+
+/* spr */
+.logo, a.top-quick-link:hover, .icon-play, .top-quick, .icon-quick-package, .icon-quick-video, .icon-quick-match, .icon-quick-info, .icon-quick-personal, .loginname .login-fwq, .more, .icon-video, .icon-submit, .icon-hero, .icon-quick, .icon-quick-icon, .icon-quick-popularity, .icon-quick-cdk, .icon-quick-gameinfo, .icon-quick-weibo, .icon-quick-reward, .icon-quick-bbs, .icon-quick-online, .btn-long, .icon-match, .icon-online, .icon-activity, .ico-arrowdown, .icon-quick-style, .icon-quick-lcu, .icon-quick-yz, .icon-quick-mall {
+    background-repeat: no-repeat;
+    background-image: url(../images/public-spr.png);
+    background-position: -9999em -9999em;
+}
+
+.mainer {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    padding-top: 28px;
+    overflow: hidden;
+    zoom: 1
+}
